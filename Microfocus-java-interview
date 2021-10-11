@@ -1,0 +1,57 @@
+===================
+Company: Microfocus
+Date : 2-Sept-2021
+===================
+
+1st round: Online test in hackerearth consists of 15 java and REST API questions. Time limit was 30 min.
+
+2nd round: Interview in MS-teams, with two interviewers.
+1. Why you want to switch from current job
+2. tell me about yourself 
+3. Why people use java over C and C++
+4. Why ppl use spring boot
+5. What is REST and what are advantages of it?
+6. What is volatile in java ?
+7. what is synchronized.
+8. Assume there is variable counter and two methods       synchronized setCounter() method and non synchronized updateCounter() method, explain the impact of it in multithreaded environment
+9. Explain the states of thread with example
+10. What are throw and throws in java?
+11. What is diff bw abstract class and interfaces
+12. How to convert interface into abstract class
+13. Difference bw PUT and POST method
+14. What are query parameter and Request Parameters? 
+15. Write and code to search an element in a sorted array(Binary search that he was expecting)
+
+3rd round
+04/09/2021
+Managerial round
+
+Tell me more about yourself
+Tell me your one strength
+Tell me instance where you felt so happy about your job
+
+==============
+Rating: 3.9/5
+==============
+
+2nd Round 
+3rd September 2021 
+Technical round with one to two
+
+Tell me about yourself.
+What java command does.
+What made java popular.
+What is inheritance.
+Write classes which explains inheritance(asked many qns by up-casting down-casting the objects).
+What is difference bw abstract class and interface.
+what happens when you create object using new keyword.
+Create a thread and print 0 to 9 in it.
+why there are two ways of creating thread.
+Explain the thread working along its states.
+Write a algorithm that searches element efficiently for sorted array(binary search)
+Write a rest controller class one with get method and one post method.
+Do you have any qns?
+=======================
+4/5 rating
+=======================
+

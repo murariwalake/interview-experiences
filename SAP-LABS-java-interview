@@ -1,0 +1,156 @@
+=================
+Company :SAP labs
+09-Aug-2021
+=================
+
+Round 1:
+Tell me about yourself
+Tell me about string pool, and why its introduced in java
+why string is immutable?
+Tell me about Exception hierarchy 
+Tell me about HashMap and internal working of HashMap
+Tell me when to use ArrayList and when to use LinkedList
+Asked me to create immutable class with String and HashMap<String, List> as properties of that class. He was concerned about deep copy of map
+
+Asked to implement ATM.
+Method: public Map<Integer> getDenominations(Integer amount) 
+Above method will take integer as input and returns map of notes and its count.
+ATM has infinite number of 100, 200, 500, and 2000 notes, when user enters amount, it has to return mao of notes and its count. Also have to validate the input.
+
+Ex:
+Input: 5900
+Output [2000:2, 500:3 200: 2, 100:0]
+
+Asked to write TestClass for it. He was concerned about assertXXX methods.
+
+Tell me about design pattern that you used in current project, or tell me design patterns you aware. We were using factory design pattern in current project so I explained about it.
+
+
+
+
+class ATM{
+	public static ArrayList<Integer> notes;// 100, 200, 500, 2000
+	
+	static{
+		notes = new ArrayList<Integer>();
+		notes.add(2000);
+		notes.add(500);
+		notes.add(200);
+		notes.add(100);
+		
+	}
+
+	public static ArrayList<Integer> getDenominations(Integer amount)Throws ATMException{
+		validateAmount(amount);
+		
+		ArrayList<Integer> result = new ArrayList<>();
+		for(int i = 0; i<notes.size() && amount > 0; i++){
+			while(amount >= notes.get(i)){
+				result.add(notes.get(i));
+				amount -=  notes.get(i);
+			}
+			
+		}
+
+		return result;		
+		
+		
+		
+	}
+
+	protected void validateAmount(Integer amount)Throws ATMException{
+		if(amount <= 0)
+			new ATMException("Invalid input: Amount must be greater than zero");
+
+		if(amount % 100 != 0)	
+			new ATMException("Invalid input: Amount must multiple of 100");
+
+	}
+
+}
+
+
+public ATMTest{
+	
+	@Test(timeout=120000)
+	public void testGetDenominationsPositive(){
+		Integer sum = 0;
+		ArrayList<Integer> result = getDenominations(8700);
+		for(Integer amount : result)
+			sum += amount;
+		assetEquals(sum, 8700);
+		
+		
+	}
+
+	@Test(timeout=120000)
+	public void testGetDenominationsNegative(){
+		Integer sum = 0;
+		try{
+			getDenominations(-200);
+		}catch()
+		
+		
+		
+	}
+	
+
+}
+
+================================================================================================================
+
+Round 2: Technical
+11-Aug-2021
+
+Introduce yourself, tell me about projects you worked and tell me about what kind of qns you faced in last round.
+What is encapsulation, what is use of it, how to achieve it in java
+What is inheritance, what is use of it
+What is deep copy how to do it in java
+What is most parent class of all the classes in java
+Tell few methods of Object class
+*What are some magic words in java?
+Why java is platform independent
+Have you seen .class file, have you opened it?
+Have you worked in JDBC?
+
+What is authentication and authorization?
+Difference bw get and post methods
+Difference bw patch and post methods
+
+If you have to introduce feature like updating the one of the product qty from your cart, which method you use get post put or patch
+
+asked to code for below problems
+Given two elements write code to find least common transistor in the binary tree which has unique elements.
+
+Given array of unique integers and target sum, find pair whose sum is equal to target sum. O(n) time and space complexity is expected.
+
+I was able to answer all the qn except magic words in java, and solved both coding qns.
+Interviewer was trying to go deeper as much as I was able to answer them.
+==============================================================================================================
+
+Round 3
+Managerial Round
+17-aug-2021
+
+1. Tell me about yourself
+2. Explain any one project architecture in brief
+3. what is polymorphism?
+4. Why operator overloading is not there in java
+5. What are differences bw rest and SOAP architecture
+6. What do you miss in REST from SOAP architecture
+7. As you mentioned code optimization in you resume, explain about it
+8. Do you know how code complexity will be calculated. If I give you and code and will you tell me its complexity 
+   in the range 1 to 10?
+9. What all you know about SAP
+10. Why you want to leave your current organization
+11. Do you know graph?
+12. What are algos used to traverse the graph?
+13. When do you use DFS and when do you use BFS ?
+14. What things you keep in mind when you are developing product which uses cloud services ?
+==============================================
+Tech stack: Angular, Java, REST, microservices.
+Rating 4.5/5
+==============================================
+
+
+

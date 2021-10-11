@@ -1,0 +1,38 @@
+=====================
+HashedIn by delloite
+=====================
+
+1st round : 3 coding questions
+1. Calculate the frequency of each word in the given string.
+   https://www.geeksforgeeks.org/calculate-the-frequency-of-each-word-in-the-given-string/
+2. Segregate all even and odd number so that all even numbers comes first and odd will comes at the last. No need to bother
+   about order or sorting. : Solved using two pointers
+   https://www.geeksforgeeks.org/segregate-even-and-odd-numbers/
+3. Find number of balanced strings.
+   https://leetcode.com/problems/split-a-string-in-balanced-strings/
+
+4. What is singleton and how to create singleton class.
+5. What is immutable class and how to create it
+
+2nd round: design round 1 to 1
+22/07/2021
+
+Introduce yourself
+Explain about current project
+Tell the methods available in REST
+Difference bw PUT and POST methods
+What is singleton class, design it, when do we need it
+How to achieve singleton in multi threaded environment (using Synchronized block + lazy loading or eager loading)
+Write singleton class for multi threaded environment
+Cons of eager loading
+What is difference bw equals method and == operator
+Design Airline booking system (Consider about gathering info, entity classes and their relationship)
+
+3rd round : managerial round.
+Basic typical managerial round.
+
+Lastly HR discussion.
+
+=======================================
+rating : 4.6/5
+========================================

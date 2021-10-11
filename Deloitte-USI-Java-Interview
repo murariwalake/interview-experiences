@@ -1,0 +1,16 @@
+===========
+Deloitte
+===========
+
+1. Tell me about yourself
+2. Did you work on enhancement kind of project
+3. Difference between abstract class and interface
+4. In which scenario you go with abstract class
+5. Types of Exceptions
+6. Is it Possible to declare throws RunTimeException in overridden method, if parent class method is declared as throws NullPointereException. (Ans No)
+7. Write Program to convert input number to Words format.
+https://www.geeksforgeeks.org/convert-number-to-words/
+
+===============
+Rating : 3.5/5
+===============

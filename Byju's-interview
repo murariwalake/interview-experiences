@@ -1,0 +1,61 @@
+=============
+BYJU'S 
+=============
+
+1st round: Tech
+1st Sept 2021
+Interviewer shared a link which had one coding question, 5 MCQ on Node.js and 5 MCQ on RestFull web services. He asked code for below problem by screen sharing.
+Coding qn: https://www.geeksforgeeks.org/count-subarrays-with-same-even-and-odd-elements/
+Coded with O(N2) interviewer was just okay with it.
+
+After doing coding I continued to answer MCQ questions, which were I was totally unaware and selected some random choices. Node.js I am not aware of at all and restFull web services questions were more advanced. 
+
+Got call from HR saying you are selected for next round, performance was not that great but it was okay.
+
+Sept 2021
+2nd round: Tech
+Tell me about yourself
+What all tables used in your e-commerce project
+What happens when we order all the products from our cart
+
+Asked to write code for below problems\
+https://www.interviewbit.com/problems/first-non-repeating-character-in-a-stream-of-characters/
+
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+I wrote efficient code for both the problems with O(N) time and O(N) space.
+======================
+Rating: 3.8/5 
+======================
+
+3rd Round
+6th Sept 2021 
+
+1. Tell me about your roles and responsibilities in your current project.
+2. Tell me what REST end points you created in your project.
+3. Reverse the linked list in K groups, I was able to write clean and correct code using recursion 
+   https://leetcode.com/problems/reverse-nodes-in-k-group/
+4. Why you want to switch?
+5. What is difference between static and dynamic binding
+6. Show me how you override toString() method.
+7. Tell me how you swap two objects in java
+8. Difference between StringBuilder and StringBuffer class
+======================
+Rating: 3.9/5
+======================
+
+4rd Round
+9th Sept 2021
+Technical + managerial round
+
+Tell me about yourself
+what is immutable class, how to create immutable class
+Why you want to leave your current organization
+When you felt proud of your work.
+What is current CTC
+What is CTC of the one offer that you are currently holding
+What are salary expectation
+Write code to print all permutations of string. Asked to write it in some IDE so that we can compile and run it. 
+(Wrote clean code and got correct output)
+==========================
+Rating: 3.7
+==========================

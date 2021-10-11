@@ -1,0 +1,19 @@
+Accenture
+02 Aug 2021
+Role: Java backend (Java + springboot + microservices)
+
+Java interview
+Introduce yourself
+1. What is polymorphism
+2. Tell me about final keyword
+3. can we overload final method
+4. What is exception handling and types of exception in java
+5. Tell me about throw and throws keywords
+6. What is serialization
+7. Difference between Comparator and Comparable interfaces
+8. Tell me about java 8 features (Stream API, default method in interface, functional programming)
+9. Tell me about spring boot and explain how you create new spring bot project
+10. In spring boot project what is the annotation name that will be there in main class (@SpringBootApplication)
+11. Tell me about angular and explain me steps to set it up from scratch
+
+

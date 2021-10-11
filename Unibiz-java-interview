@@ -1,0 +1,32 @@
+====================
+Company: unibiz
+Role: Java developer
+====================
+
+1st round: basic java qns
+1. Tell me bout projects done in past.
+2. Tell me about class path and path variable in java
+3. Explain oops concepts
+4. There are 10 employees data needs to be processed. we have 10 threads created and each thread takes 2sec to process employee data.
+   How many secs it takes to process all employees data. (Ans depends on cores of the computer. every core can run 2 threads 
+   at a time. if it is 4 core computer then ans will be 4 seconds.)
+5. Explain HashMap in java. what is role of hashCode method.
+6. Explain collection framework in java.
+7. Difference bw @RestController and @Controller
+8. Tell me what all annotations have you used in spring boot
+9. Tell me about @ResponseStatus annotation in spring boot
+10. At last he asked me to write one simple program by screen sharing. I wrote and ran it in eclipse. Program was to reverse the given string and display it. (His intention was to check coding standards)
+
+2nd round: Puzzle and problem solving
+1. Introduce yourself
+2. Since I had mentioned about SQL in my past project he asked two qns on it.
+3. What is indexing in SQL
+4. output of the query SELECT * from A, B; where A has 10 rows and B has 20 row. How many rows result will be having. and which SQL
+   supports this kind of query
+5. Puzzle: Every banana costs 5rs each. and there is offer if you give 5 banana peals back to banana seller he gives us one banana. You have 105 rs with you. How many banana at most you can buy. Ans 26
+6. Puzzle 3 digits number 
+   https://www.resultuniraj.co.in/whatsapp-status-challenge-puzzle-answer-break-the-numeric-lock-with-3-digit-key/ 
+7. Write a method which takes array of strings and returns array of string which are palindrome. He asked me to write code in notepad with screen share
+8. Write a method which takes an input integer array of length 10. It consists of numbers from 1 to 10. No duplicates. There are few values of array are empty(Filled with -1). Task is to fill that empty cell with valid number from 1 to 10 so the result array should not have duplicates. I thought of using hashset to find out missing elements. but interviewer asked me no to use extra space.
+
+

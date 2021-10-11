@@ -1,0 +1,208 @@
+=============================================
+company : Magnitude Software
+=============================================
+
+HR contacted directly to me over phonecall.
+
+
+1st round: 1 to 1 Coding round 18-Oct-2021
+1. Tell me about tech stack that you have worked.
+2. Asked me to share the screen and asked to code below coding qns.
+
+
+Implement an algorithm to delete a node in the middle (ie., any node but
+the first and last node, not necessarily the exact middle) of a singly linked list, given only access to
+that node.
+EXAMPLE
+Input: the node c from the linked list a - >b- >c - >d - >e- >f
+Result: nothing is returned, but the new linked list looks like a->b->d->e->f
+
+public void deleteNode(Node head, Node node){=============================
+company : Magnitude Software
+==============================
+
+HR contacted directly to me over phone call.
+
+1st round: 1 to 1 Coding round 18-Oct-2021
+1. Tell me about tech stack that you have worked.
+2. Asked me to share the screen and asked to code below coding qns.
+
+
+Implement an algorithm to delete a node from singly linked list
+https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/
+
+Number of ways that we can reach to nth step
+https://www.geeksforgeeks.org/count-ways-reach-nth-stair-using-step-1-2-3/
+
+==========================================================
+Rating
+Communication and friendliness with interviewer = 3.7/5
+project rating 3.5/5
+Project: company deals with JDBC and ODBC techs, maintaining enhancing and building from scratch, (building from scratch is very rare)
+==========================================================
+
+2nd round: Technical
+1. Asked few qns about core java
+2. Asked to write code for below problem with O(n) time and O(1) space. I was able to give solution with O(n) time and O(n) space using stack
+https://leetcode.com/problems/daily-temperatures/
+
+===============
+Rating
+3.7/5
+==============
+
+3rd round:
+24-Sept-2021
+
+1. Tell me about your professional journey.
+2. There is an application where it has feature like, whatever you make changes during offline it will update when user goes to online. But there is issue that it is not updating data when user goes online,  what might be the possible root causes.
+
+3. Gave below code and asked to how you will approach for solution.
+/*<summary>
+Waits till task execution is finished,cancelled and failed.
+Keep checking the Task status till it turns to finished,cancelled and failed.
+</summary>
+*/
+public string WaitTillTaskHasFinished()
+{
+	/* code within while loop is the solution that I gave, also I explained about join method from thread.*/
+	while(true){
+
+		taskStatus = ObjectTask.getStatus();
+		if(taskStatus in (finished,cancelled and failed))
+			break;
+	}
+	
+}
+
+on above scenario he also asked how will you handle if that task never completes, will you wait infinitely ?
+4. Are you interested in onsite? if so then we don't provide much onsite opportunities.
+5. He explained about the roles and kind of work I will be involving.
+
+===========================
+Work or Project
+Developing/enhancing/supporting JDBC, ODBC drivers
+Tech : java
+Customers: Amazone, fb, google, ebay etc.
+
+Rating: 3.7/5
+=======================
+
+
+
+
+
+
+
+
+
+	Node prev = head;
+	Node cur = head.next;
+
+	while(cur != null){
+		if(cur == node){
+			prev.next = cur.next;
+			return;
+		}
+		prev = cur;
+		cur = cur.next;
+	}
+
+}
+
+public void deleteNode(Node node){
+	node.data = node.next.data;
+	node.next = node.next.next;
+}
+
+https://www.geeksforgeeks.org/count-ways-reach-nth-stair-using-step-1-2-3/
+A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3
+steps at a time. Implement a method to count how many possible ways the child can run up the
+stairs.
+
+
+
+public int numberOfWays(int n){
+	int[] dp = new int[n+1];
+	Arrays.fill(dp, -1);
+	dp[1] = 1;
+	dp[2] = 2;
+	dp[3] = 4;
+	
+	return numberOfWaysHelper(n, dp);
+	
+
+}
+
+
+public int numberOfWaysHelper(int n, int[] dp){
+	if(n <= 3)
+		return dp[n];
+	dp[n] = numberOfWays(n-1) + numberOfWays(n-2) + numberOfWays(n-3);
+	
+	return dp[n];
+
+}
+==========================================================
+Rating
+Communication and friendlyness with interviewer = 3.7/5
+project rating 3.5/5
+Project: company deals with JDBC and ODBC techs, maintaining enhansing and building from scratch, (building from scratch is very rare)
+==========================================================
+
+2nd round: Technical
+1. Asked few qns about core java
+2. Asked to write code for below problem with O(n) time and O(1) space. I was able to give solution with O(n) time and O(n) space using stack
+https://leetcode.com/problems/daily-temperatures/
+
+===============
+Rating
+3.7/5
+==============
+
+3rd round:
+24-Sept-2021
+
+1. Tell me about your professionl journey.
+2. There is an application where it has feature like, whatever you make changes during offline it will udate when user goes to online. But there is issue that it is not updating data when user goes online,  what might be the possible root causes.
+
+3. Gave below code and asked to how you will approach for solution.
+/// <summary>
+/// Waits till task execution is finished,cancelled and failed.
+/// Keep checking the Task satus till it turns to finished,cancelled and failed.
+/// </summary>
+public string WaitTillTaskHasFinished()
+{
+	// code within while loop is the solution that I gave, also I explained about join method from thread.
+	while(true){
+
+		taskStatus = ObjectTask.getStatus();
+		if(taskStatus in (finished,cancelled and failed))
+			break;
+	}
+	
+}
+
+on above scenario he also asked how will you handle if that task never completes, will you wait infinitely ?
+4. Are you interested in onsite? if so then we don't provide much onsite opportunities.
+5. He explained about the roles and kind of work I will be involving. (It was more than 15 min, at the end it was boaring.)
+
+===========================
+Work or Project
+Developing/enhancing/supporting JDBC, ODBC drivers
+Tech : java
+Customers: Amazone, fb, google, ebay etc.
+===========================
+
+=======================
+Rating
+3.7/5
+friendlyness was okay, not really smart, kind of avg ppl
+=======================
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+==============
+CISCO
+09/Sept/2021
+==============
+
+Role: java + angular full stack developer, Chennai location.
+Applied from LinkedIn, after that received hackerrank test link and required to finish it in next 48 hours
+
+After completing online test, HR called and explained about next steps. those are as below
+There will be 3 round.
+first round will be general tech round without any CV.
+second round will be tech round
+if you perform good in any of the above two rounds then you will be sent to 3rd round
+third round will tech + managerial round.
+Note: All round will be on single day and those will be continuous giving 10min of break in between two rounds.
+
+My interview started at 11AM and all three rounds ended at around 1:45PM
+all were around 1hr rounds
+
+Online test: Hackerrank coding round
+5 coding questions were there, 3 were easy and 2 were medium level questions
+
+1st round:
+Tell me about yourself.
+
+Given use cases and asked for solution approach
+Use case 1: there is career portal and there is two types of data, username, experience etc and resume as some file.
+You have to upload a resume in MongoDB and you have to add other data in MYSQL, if any of the one fails you have to rollback the other data that you inserted. How you achieve this in spring boot. (He was expecting to use @Transactional annotation)
+
+Use case 2: There is job portal and you have posted 5 new jobs and job description is available in DB. assume there are 1000 of ppl trying to get job description, how will you implement to minimize database hits (He expecting some caching and I answered the same)
+
+Write a rest controller class and write one get end point which takes id as query parameter and returns user details.
+Add one more feature to the same REST end point, that should return user details of that user and if his name is villiam
+(In this case I took id as path parameter and name as request parameter and achieved the task)
+
+What does @RequestMapping annotation do?
+What happens if we declare something like below in rest controller
+@RestController("\user")
+@RequestMapping("\user") 
+
+Why spring boot used over spring framework
+In System.out.println() explain each things https://www.geeksforgeeks.org/system-out-println-in-java/
+
+Give me an example where you used overloaded methods from built in java library (Gave Arrays.sort() as example)
+Write query to get employee details who has third highest salary
+
+=================
+rating 4.5/5
+Project : Building web application using spring boot and Angular frameworks
+=================
+
+2nd Round: 
+Tell me about your projects,
+Similar question asked in round one(use case 1)
+Explain architecture of any one project that you worked
+What is immutable class, how to create immutable class.
+What is deep copy
+what happens when you do below thing
+s1 = "ABC"
+s1 = s1+"xyz";
+
+Use case: assume there you have service and it will throw some error message, how will you return same error message in different languages, for ex: Indians should get error message in English where japan ppl get it in japanies etc.
+I did not know about it.
+
+Write SQL query for below scenario
+There is employee table and department table, every employee may or may not have dept.
+Fetch all employees details along with there department details. (Left join b/w Employee and dept)
+
+=================
+rating 4.5/5
+=================
+
+3rd Round
+Tell me about yourself
+Tell me you hobby
+tell me your weakness and strength
+
+Puzzle: measure 4L of water from 3L and 5L jar https://practice.geeksforgeeks.org/problems/the-3-5-litre-die-hard-water-puzzle
+
+Write a query to find second highest salary from employee table
+
+What all test cases you write for login scenario, where service takes user id and password.
+
+Write logic to validate username and and age of an employee. where username should only contain caps small alphabets, numbers and space
+
+and age should be more than zero and less than 100.
+
+She was expecting to write in java script but I wrote it in java but she was okay  with it.
+
+==========================================
+rating 4.9/5, it was nice to talk with her
+==========================================
