@@ -1,2 +1,2 @@
 # interview-experiences
-Java interview experiance from different companies for 2+ years experianced employee
+Java interview experiences from different companies for 2+ years experianced employee
